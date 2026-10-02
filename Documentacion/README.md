@@ -12,7 +12,7 @@ Proyecto 1 – Prototipado Electrónico (Ingeniería Mecatrónica, UTP 2026-2)
 | [04_Restricciones_Diseno.md](04_Restricciones_Diseno.md) | Limitaciones técnicas, económicas y de fabricación |
 | [05_Lista_Preliminar_Componentes.md](05_Lista_Preliminar_Componentes.md) | Componentes principales seleccionados y su justificación |
 | [Diagramas/](Diagramas/README.md) | Diagrama de Bloques de Alto Nivel (HBLD) en PNG y archivo editable .drawio |
-| `Datasheets/` | Hojas de datos de los componentes seleccionados |
+
 
 ## Flujo de diseño
 
