@@ -37,6 +37,7 @@ Fuente de laboratorio que convierte la tensión AC de un transformador en cinco 
  ┣ 📂 PCB
  ┃ ┗ 📂 Trunk            → Proyecto de Altium Designer
  ┣ 📂 Documentacion      → Especificaciones, requerimientos, diagramas y datasheets
+ ┃ ┗ 📂 Diagramas            → Diagrama de diseño de alto nivel en DRAW.IO
  ┣ 📂 Librerias          → Símbolos y footprints propios
  ┗ 📂 assets             → Imágenes del README
 ```
