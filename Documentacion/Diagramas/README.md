@@ -32,8 +32,6 @@
 | 🟥 | Protecciones |
 | 🟩 | Salidas reguladas |
 
-### ✏️ Editar el diagrama
 
-Descarga el archivo `.drawio` y ábrelo en [app.diagrams.net](https://app.diagrams.net) desde **Archivo → Abrir desde → Dispositivo**.
 
 <sub>⬅️ [Volver a la documentación](../README.md)</sub>
