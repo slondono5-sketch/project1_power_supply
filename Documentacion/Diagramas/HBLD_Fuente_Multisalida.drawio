@@ -1,0 +1,190 @@
+<mxfile host="Electron">
+  <diagram name="HBLD" id="hbld">
+    <mxGraphModel dx="2575" dy="1565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zac" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#333333;verticalAlign=top;align=left;spacingLeft=12;spacingTop=6;fontStyle=1;fontSize=13;arcSize=2;" value="Etapa AC (externa a la PCB)" vertex="1">
+          <mxGeometry height="220" width="740" x="10" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="zpcb" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#333333;verticalAlign=top;align=left;spacingLeft=12;spacingTop=6;fontStyle=1;fontSize=13;arcSize=2;" value="PCB – Fuente multisalida" vertex="1">
+          <mxGeometry height="780" width="1100" x="770" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;" value="&lt;b style=&quot;font-size:20px&quot;&gt;HBLD – Fuente de Alimentación Multisalida&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Prototipado Electrónico · UTP 2026-2&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size:12px&quot;&gt;Santiago Londoño Valencia&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="600" x="10" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="ac" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Entrada AC&lt;/b&gt;&lt;br&gt;120 VAC · 60 Hz" vertex="1">
+          <mxGeometry height="70" width="120" x="20" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="fu" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;Fusible&lt;/b&gt;&lt;br&gt;T3.15 A / 250 V" vertex="1">
+          <mxGeometry height="70" width="120" x="170" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="sw" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;Interruptor&lt;/b&gt;&lt;br&gt;DPST 10 A" vertex="1">
+          <mxGeometry height="70" width="110" x="320" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="mv" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;Varistor (MOV)&lt;/b&gt;&lt;br&gt;14D241K" vertex="1">
+          <mxGeometry height="70" width="120" x="460" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="tr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Transformador&lt;/b&gt;&lt;br&gt;120 / 18 VAC&lt;br&gt;≥ 300 VA" vertex="1">
+          <mxGeometry height="80" width="125" x="610" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="br" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Rectificador&lt;/b&gt;&lt;br&gt;Puente GBJ2510&lt;br&gt;25 A" vertex="1">
+          <mxGeometry height="70" width="130" x="800" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="fl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Filtrado capacitivo&lt;/b&gt;&lt;br&gt;3 × 10 000 µF / 50 V" vertex="1">
+          <mxGeometry height="70" width="145" x="965" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="bus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;horizontal=0;fontSize=13;strokeWidth=2;" value="&lt;b&gt;BUS VIN DC&lt;/b&gt; · 21 – 30 V · ≈ 8.3 A" vertex="1">
+          <mxGeometry height="680" width="50" x="1140" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tvs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;TVS&lt;/b&gt;&lt;br&gt;SMCJ33A" vertex="1">
+          <mxGeometry height="55" width="110" x="1000" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="rd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;R descarga + LED&lt;/b&gt;&lt;br&gt;4.7 kΩ / 1 W" vertex="1">
+          <mxGeometry height="55" width="140" x="820" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="ac" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="fu" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="fu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="sw" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" edge="1" parent="1" source="sw" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="mv" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" source="mv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="tr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" edge="1" parent="1" source="tr" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="br" value="18 VAC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" edge="1" parent="1" source="br" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="fl" value="DC pulsante">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" edge="1" parent="1" source="fl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.485;" target="bus" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" edge="1" parent="1" source="fl" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;dashed=1;strokeColor=#b85450;strokeWidth=1.5;" target="tvs" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" edge="1" parent="1" source="fl" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;dashed=1;strokeColor=#b85450;strokeWidth=1.5;" target="rd" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dc0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Buck +12 V&lt;/b&gt;&lt;br&gt;LM2678-12&lt;br&gt;&lt;i style=&#39;font-size:10px&#39;&gt;Límite de corriente · Apagado térmico&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="1235" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pr0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;Protección salida&lt;/b&gt;&lt;br&gt;PTC / fusible&lt;br&gt;Diodo inverso · LED" vertex="1">
+          <mxGeometry height="70" width="150" x="1480" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="o0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="+12 V · 5 A&lt;br&gt;&lt;span style=&#39;font-weight:normal;font-size:10px&#39;&gt;Borne banana 4 mm&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="1910" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.074;entryX=0;entryY=0.5;" target="dc0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" edge="1" parent="1" source="dc0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="pr0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" edge="1" parent="1" source="pr0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="o0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dc1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Buck +5 V&lt;/b&gt;&lt;br&gt;LM2678-5.0&lt;br&gt;&lt;i style=&#39;font-size:10px&#39;&gt;Límite de corriente · Apagado térmico&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="1235" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;Protección salida&lt;/b&gt;&lt;br&gt;PTC / fusible&lt;br&gt;Diodo inverso · LED" vertex="1">
+          <mxGeometry height="70" width="150" x="1480" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="o1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="+5 V · 5 A&lt;br&gt;&lt;span style=&#39;font-weight:normal;font-size:10px&#39;&gt;Borne banana 4 mm&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="1910" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" edge="1" parent="1" source="bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.279;entryX=0;entryY=0.5;" target="dc1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" edge="1" parent="1" source="dc1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="pr1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" edge="1" parent="1" source="pr1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="o1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dc2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Buck +3.3 V&lt;/b&gt;&lt;br&gt;LM2678-3.3&lt;br&gt;&lt;i style=&#39;font-size:10px&#39;&gt;Límite de corriente · Apagado térmico&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="1235" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pr2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;Protección salida&lt;/b&gt;&lt;br&gt;PTC / fusible&lt;br&gt;Diodo inverso · LED" vertex="1">
+          <mxGeometry height="70" width="150" x="1480" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="o2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="+3.3 V · 3 A&lt;br&gt;&lt;span style=&#39;font-weight:normal;font-size:10px&#39;&gt;Borne banana 4 mm&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="1910" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" edge="1" parent="1" source="bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.485;entryX=0;entryY=0.5;" target="dc2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" edge="1" parent="1" source="dc2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="pr2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" edge="1" parent="1" source="pr2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="o2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dc3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Buck-boost inversor −12 V&lt;/b&gt;&lt;br&gt;LM2576HV-ADJ&lt;br&gt;&lt;i style=&#39;font-size:10px&#39;&gt;Límite de corriente · Apagado térmico&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="1235" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="pr3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;Protección salida&lt;/b&gt;&lt;br&gt;PTC / fusible&lt;br&gt;Diodo inverso · LED" vertex="1">
+          <mxGeometry height="70" width="150" x="1480" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="o3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="−12 V · 1 A&lt;br&gt;&lt;span style=&#39;font-weight:normal;font-size:10px&#39;&gt;Borne banana 4 mm&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="1910" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" edge="1" parent="1" source="bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.691;entryX=0;entryY=0.5;" target="dc3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" edge="1" parent="1" source="dc3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="pr3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" edge="1" parent="1" source="pr3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="o3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dc4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Buck ajustable&lt;/b&gt;&lt;br&gt;LM2678-ADJ + pot. 10 kΩ&lt;br&gt;&lt;i style=&#39;font-size:10px&#39;&gt;Límite de corriente · Apagado térmico&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="1235" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="pr4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" value="&lt;b&gt;Protección salida&lt;/b&gt;&lt;br&gt;PTC / fusible&lt;br&gt;Diodo inverso · LED" vertex="1">
+          <mxGeometry height="70" width="150" x="1480" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="o4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="1.25 – 15 V · 3 A&lt;br&gt;&lt;span style=&#39;font-weight:normal;font-size:10px&#39;&gt;Borne banana 4 mm&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="1910" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" edge="1" parent="1" source="bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.897;entryX=0;entryY=0.5;" target="dc4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" edge="1" parent="1" source="dc4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="pr4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" edge="1" parent="1" source="pr4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;fontSize=11;labelBackgroundColor=#ffffff;" target="o4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnd" parent="1" style="text;html=1;align=center;fontStyle=2;fontSize=11;" value="GND común para todas las salidas" vertex="1">
+          <mxGeometry height="30" width="240" x="1480" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="lg" parent="1" style="text;html=1;align=left;fontSize=13;" value="&lt;b&gt;Leyenda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="25" width="200" x="20" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lg0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" value="Etapa AC / maniobra" vertex="1">
+          <mxGeometry height="35" width="165" x="20" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Potencia / conversión AC-DC" vertex="1">
+          <mxGeometry height="35" width="165" x="200" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Filtrado" vertex="1">
+          <mxGeometry height="35" width="165" x="20" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Convertidores DC/DC" vertex="1">
+          <mxGeometry height="35" width="165" x="200" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="lg4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;fontSize=11;" value="Protecciones" vertex="1">
+          <mxGeometry height="35" width="165" x="20" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="lg5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;arcSize=12;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=11;" value="Salidas reguladas" vertex="1">
+          <mxGeometry height="35" width="165" x="200" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
