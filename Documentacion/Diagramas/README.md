@@ -21,6 +21,19 @@
 
 ---
 
+### ⚡ Árbol de potencia
+
+<div align="center">
+
+<img src="Arbol_Potencia.svg" alt="Árbol de potencia de la fuente multisalida" width="100%"/>
+
+[![Descargar .drawio](https://img.shields.io/badge/Descargar-.drawio-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](Arbol_Potencia.drawio?raw=true)
+[![Ver cálculos](https://img.shields.io/badge/Ver-cálculos-2E86DE?style=for-the-badge)](../06_Arbol_de_Potencia.md)
+
+</div>
+
+---
+
 ### 📖 Cómo leer el diagrama
 
 | Color | Bloque |
@@ -32,6 +45,8 @@
 | 🟥 | Protecciones |
 | 🟩 | Salidas reguladas |
 
+### ✏️ Editar el diagrama
 
+Descarga el archivo `.drawio` y ábrelo en [app.diagrams.net](https://app.diagrams.net) desde **Archivo → Abrir desde → Dispositivo**.
 
 <sub>⬅️ [Volver a la documentación](../README.md)</sub>
