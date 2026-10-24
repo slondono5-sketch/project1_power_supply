@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ZEKBZBOZ
 
 [Document5]
-DocumentPath=200_DC_DC.SchDoc
+DocumentPath=200_BUCK_12V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
